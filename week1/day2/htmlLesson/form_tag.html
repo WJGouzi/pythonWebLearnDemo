@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form表单</title>
+</head>
+<body>
+    form 中的action放置的是url
+    <form action="127.0.0.1:8080/index" method="post">
+        <p>姓名:<input type="text" name="username"></p>
+        <p>性别:<input type="password" name="password"></p>
+
+
+        复选框
+        <p>爱好:足球<input type="checkbox" name="hobby" value="1"></p>
+        <p>篮球<input type="checkbox" name="hobby" value="2"></p>
+
+        单选框
+        <p>男/女:男<input type="radio" name="gender" value="0"></p>
+        <p> 女 <input type="radio" name="gender" value="1"> </p>
+
+        name属性是给服务器看的！<br>
+        {username = 输入的文字， password = 输入的文字, hobby = [足球， 篮球]， gender = 0 | 1 }
+
+        <p> 文件 <input type="file"> </p>
+        <p> 重置 <input type="reset" value="重新设置"> </p>
+
+        <p><input type="submit" value="press"></p>
+        <p><input type="button" value="提交了(和js进行使用)"></p>
+    </form>
+
+
+
+</body>
+</html>
