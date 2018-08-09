@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>a标签的锚功能</title>
+
+    <style>
+        /*加上"#"接上id,唯一对应的，id是唯一的*/
+        #div1 {
+            height: 300px;
+            background-color: pink;
+        }
+
+        #div2 {
+            height: 500px;
+            background-color: purple;
+        }
+
+        #div3 {
+            height: 600px;
+            background-color: aqua;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<a id="div_top"></a>
+<a href="#div1">part 1</a>
+<a href="#div2">part 2</a>
+<a href="#div3">part 3</a>
+
+
+
+<div id="div1">part 1</div>
+<a href="#div_top">返回</a>
+<div id="div2">part 2</div>
+<a href="#div_top">返回</a>
+<div id="div3">part 3</div>
+<a href="#div_top">返回</a>
+
+</body>
+</html>
