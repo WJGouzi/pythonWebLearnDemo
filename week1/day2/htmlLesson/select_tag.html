@@ -5,10 +5,32 @@
     <title>select</title>
 </head>
 <body>
-    <select name="" id="">
+    <select name="" >
         <option value="">北京</option>
         <option value="">成都</option>
         <option value="">上海</option>
     </select>
+
+
+
+    出生地:<select name="city" multiple size="5">
+            <optgroup label="四川">
+                <option value="cd">成都</option>
+                <option value="dy">德阳</option>
+                <option value="zg">自贡</option>
+            </optgroup>
+            <optgroup label="外省">
+                <option value="cq">重庆</option>
+                <option value="sh">上海</option>
+            </optgroup>
+    </select>
+
+    <textarea name="self_introduce" id="" cols="30" rows="10">自我简介</textarea>
+
+    <label for="contactInputTag">male</label>
+    <input type="checkbox" id="contactInputTag" name="labelTagInput">
+
+    <p><input type="file" name="fileUpdate"> </p>
+    <p><input type="submit" value="发送"> </p>
 </body>
 </html>
